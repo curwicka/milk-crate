@@ -39,21 +39,6 @@ h3 {
   margin-top: 0px;
 }
 
-header {
-  background-color: #12232E;
-  margin-top: -35px;
-  padding: 15px;
-}
-
-footer {
-  position: absolute;
-  background-color: #12232E;
-  padding: 15px;
-  color: #EEFBFB;
-  width: 100%;
-  bottom: 0;
-}
-
 /***********
  * Carousel
  ***********/
@@ -95,7 +80,7 @@ footer {
 	font-family: 'Open Sans Condensed', arial, sans;
 	width: 500px;
 	padding: 30px;
-	background: #FFFFFF;
+	background: #EEFBFB;
 	margin: 50px auto;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
 	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
@@ -123,11 +108,11 @@ footer {
 
 .login input[type="button"],
 .login input[type="submit"] {
-	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
-	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
-	box-shadow: inset 0px 1px 0px 0px #45D6D6;
-	background-color: #2CBBBB;
-	border: 1px solid #27A0A0;
+	-moz-box-shadow: inset 0px 1px 0px 0px #007CC7;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #007CC7;
+	box-shadow: inset 0px 1px 0px 0px #007CC7;
+	background-color: #007CC7;
+	border: 1px solid #4DA8DA;
 	display: inline-block;
 	cursor: pointer;
 	color: #FFFFFF;
@@ -140,120 +125,11 @@ footer {
 
 .login input[type="button"]:hover,
 .login input[type="submit"]:hover {
-	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
-	background-color:#34CACA;
+	background-color:#4DA8DA;
 }
-/*.registrationForm {
-  font-family: 'Open Sans Condensed', arial, sans-serif;
-  width: 500px;
-  padding: 30px;
-  background-color: #EEFBFB;
-  margin: 50px auto;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
-}
-
-.registrationForm h2 {
-  background-color: #12232E;
-  text-transform: uppercase;
-  color: #EEFBFB;
-  font-size: 18px;
-  font-weight: 100;
-  padding: 20px;
-  margin: -30px -30px 30px -30px;
-}
-
-.registrationForm input {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  outline: none;
-  display: block;
-  width: 100%;
-  padding: 7px;
-  border: none;
-  border-bottom: 1px solid #203647;
-  background: transparent;
-  margin-bottom: 10px;
-  font: 16px Arial, Helvetica, sans-serif;
-  height: 45px;
-}
-
-.registrationForm input[type="button"],
-.registrationForm input[type="submit"] {
-  -moz-box-shadow: inset 0px 1px 0px 0px #4DA8DA;
-  -webkit-box-shadow: inset 0px 1px 0px 0px #4DA8DA;
-  box-shadow: inset 0px 1px 0px 0px #4DA8DA;
-  background-color: #007CC7;
-  border: 1px solid #007CC7;
-  display: inline-block;
-  cursor: pointer;
-  color: #EEFBFB;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 16px;
-  padding: 8px 18px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.login_button {
-  float: right;
-  width: 250px;
-}
-
-.loginForm {
-  font-family: 'Open Sans Condensed', arial, sans-serif;
-  width: 200px;
-  padding: 10px;
-  background-color: #EEFBFB;
-  margin: 5px auto;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-  -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
-}
-
-.loginForm h2 {
-  background-color: #12232E;
-  text-transform: uppercase;
-  color: #EEFBFB;
-  font-size: 18px;
-  font-weight: 100;
-  padding: 10px;
-  margin: -20px -30px 30px -30px;
-  width: 200px;
-}
-
-.loginForm input {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  outline: none;
-  display: block;
-  width: 100%;
-  padding: 3px;
-  border: none;
-  border-bottom: 1px solid #203647;
-  background: transparent;
-  margin-bottom: 10px;
-  font: 16px Arial, Helvetica, sans-serif;
-}
-
-.loginForm p {
-  color: #12232E;
-}*/
 
 .login-register-wrapper {
-      /*height: 560px;
-      width: 500px;
-      margin-left: auto;
-      margin-right: auto;
-      padding:0 2em;
-      border-radius: 5px;
-      box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
-      color:#ffffff;
-      background: linear-gradient(180deg, rgba(19,38,79,1) 0%, rgba(22,147,198,1) 52%, rgba(255,255,255,0) 82%);*/
-      overflow: hidden;
+  overflow: hidden;
 }
 
 .nav-buttons {
@@ -277,7 +153,7 @@ button:focus {
 
 button.active {
   padding-bottom: 10px;
-  border-bottom: solid 2px #1059FF;
+  border-bottom: solid 2px #007CC7;
 }
 
 .forgot-panel {
@@ -291,50 +167,50 @@ button.active {
 }
 
 .form-group input {
-    width: 100%;
-    height: 35px;
-    padding-left: 15px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background: rgba(255,255,255,.5);
+  width: 100%;
+  height: 35px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background: rgba(255,255,255,.5);
 }
 
 .form-group label {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 input.submit {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1em;
-    text-align: center;
-    color: rgba(255,255,255, 1);
-    padding: 8px 0px;
-    width: 100%;
-    height: 35px;
-    border: none;
-    border-radius: 20px;
-    margin-top: 23px;
-    background-color: rgba(16,89,255, 1);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  color: rgba(255,255,255, 1);
+  padding: 8px 0px;
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 23px;
+  background-color: rgba(16,89,255, 1);
 }
 
 form#registerform {
-    left:500px;
-    top:-230px;
-    position:relative;
+  left:500px;
+  top:-230px;
+  position:relative;
 }
 
 .forgot-panel {
-    margin-top:-300px;
-    color:gray;
+  margin-top:-300px;
+  color:gray;
 }
 
 form, .forgot-panel {
-    position: relative;
-    transition: all .5s ease;
+  position: relative;
+  transition: all .5s ease;
 }
 
 #loginBtn, #registerBtn {
-    transition: all .5s ease;
+  transition: all .5s ease;
 }
