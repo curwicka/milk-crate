@@ -49,19 +49,12 @@ class Collection extends Component {
     const { albums, newAlbum } = this.state;
     return albums ? (
       <div className="album-list">
+        <h2>Your Album Collection</h2>
         <ul>
           {albums.map(album => (
             <li key={album.id}>
-              <input
-                type="checkbox"
-                checked={album.done}
-                onChange={({ target }) =>
-                  this.markAlbumAsDone(album.id, target.checked)
-                }
-                label={album.title}
-              />
-              <span className={album.done ? "done" : ""}>{album.title}</span>
-              <button onClick={() => this.removeAlbum(album.id)}>X</button>
+              {album.title} - {album.artist}
+              <button onClick={() => this.removeAlbum(album.id)}>Delete</button>
             </li>
           ))}
         </ul>
