@@ -5,77 +5,75 @@ class Collection extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      nextTodoId: 0,
-      newTodoLabel: ""
+      nextAlbumId: 0,
+      newAlbum: ""
     };
   }
 
   componentDidMount() {
     axios
-      .get(
-        "https://gist.githubusercontent.com/witalewski/fc8f043d53a0d505f84c5ddb04ae76ea/raw/7c505bbc1675a0bc8a067f8b633b531c769bb64c/data.json"
-      )
+      .get('../data.json')
       .then(({ data }) => {
-        this.setState({ todos: data });
-        this.setState({ nextTodoId: data.length });
+        this.setState({ albums: data });
+        this.setState({ nextAlbumId: data.length });
       });
   }
 
-  markTodoAsDone = (id, done) =>
+  markAlbumAsDone = (id, done) =>
     this.setState({
-      todos: this.state.todos.map(todo =>
-        todo.id === id ? { ...todo, done } : todo
+      albums: this.state.albums.map(album =>
+        album.id === id ? { ...album, done } : album
       )
     });
 
-  removeTodo = id =>
+  removeAlbum = id =>
     this.setState({
-      todos: this.state.todos.filter(todo => todo.id !== id)
+      albums: this.state.albums.filter(album => album.id !== id)
     });
 
-  addNewTodo = () =>
+  addNewAlbum = () =>
     this.setState({
-      todos: [
-        ...this.state.todos,
+      albums: [
+        ...this.state.albums,
         {
-          id: this.state.nextTodoId,
-          label: this.state.newTodoLabel,
+          id: this.state.nextAlbumId,
+          title: this.state.newAlbum,
           done: false
         }
       ],
-      nextTodoId: this.state.nextTodoId + 1,
-      newTodoLabel: ""
+      nextAlbumId: this.state.nextAlbumId + 1,
+      newAlbum: ""
     });
 
   render() {
-    const { todos, newTodoLabel } = this.state;
-    return todos ? (
-      <div className="todo-list">
+    const { albums, newAlbum } = this.state;
+    return albums ? (
+      <div className="album-list">
         <ul>
-          {todos.map(todo => (
-            <li key={todo.id}>
+          {albums.map(album => (
+            <li key={album.id}>
               <input
                 type="checkbox"
-                checked={todo.done}
+                checked={album.done}
                 onChange={({ target }) =>
-                  this.markTodoAsDone(todo.id, target.checked)
+                  this.markAlbumAsDone(album.id, target.checked)
                 }
-                label={todo.label}
+                label={album.title}
               />
-              <span className={todo.done ? "done" : ""}>{todo.label}</span>
-              <button onClick={() => this.removeTodo(todo.id)}>X</button>
+              <span className={album.done ? "done" : ""}>{album.title}</span>
+              <button onClick={() => this.removeAlbum(album.id)}>X</button>
             </li>
           ))}
         </ul>
-        <div className="new-todo">
+        <div className="new-album">
           <input
             type="text"
-            value={newTodoLabel}
+            value={newAlbum}
             onChange={({ target }) =>
-              this.setState({ newTodoLabel: target.value })
+              this.setState({ newAlbum: target.value })
             }
           />
-          <button onClick={this.addNewTodo}>Add</button>
+          <button onClick={this.addNewAlbum}>Add</button>
         </div>
       </div>
     ) : (
