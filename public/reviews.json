@@ -1,0 +1,40 @@
+[{
+		"id": 0,
+		"title": "A Dawn to Fear",
+		"artist": "Cult of Luna",
+    "review": "Over the past two decades, Cult of Luna has slowly and steadily positioned themselves among the very best post-metal bands of the world. Their art of mixing ethereal light moments with doses of sludge driven heaviness is a sonic delight, earning hordes of fans over the years. They have also continuously grown their sonic sound base, with their expansive storytelling epics. Inspired by Fritz Lang’s film Metropolis, 2013’s Vertikal remains one of their strongest works to date, while 2016’s collaboration with Julie Christmas on Mariner showcased their melodic side, bringing even greater international attention and acclaim. A Dawn to Fear is different.",
+    "link": "https://everythingisnoise.net/reviews/cult-of-luna-a-dawn-to-fear/",
+    "maxLength": 136
+	},
+	{
+		"id": 1,
+		"title": "Birth of the Cool",
+		"artist": "Miles Davis",
+    "review": "A modern-jazz touchstone that opened the door to the sleek introspection and sophisticated aplomb of 1950s cool jazz gets an exquisite and essential vinyl reissue.",
+    "link": "https://pitchfork.com/reviews/albums/miles-davis-the-complete-birth-of-the-cool/",
+    "maxLength": 121
+	},
+	{
+		"id": 2,
+		"title": "Rust",
+		"artist": "Monolord",
+    "review": "Mankind cannot advance if it knows nothing about the past. One must be fully informed about each and every step of those that came before them—successes and failures—in order to go forward. This concept applies to everything; science, politics, philosophy, technology, and most importantly, the riff.",
+    "link": "https://www.pastemagazine.com/music/monolord/monolord-rust-review/",
+    "maxLength": 137
+	},
+	{
+		"id": 3,
+		"title": "Mind Control",
+		"artist": "Uncle Acid and the Deadbeats",
+    "review": "The genre of ‘psych’ is currently having its biggest resurgence since Pink Floyd’s Syd Barrett realised he quite enjoyed riding a two-wheeler and wanted to write a song about it. From Tame Impala’s blissed-out introversions to Toy’s kraut-inflected drones to the Byrds-indebted, paisley vibes of Temples, if you don’t sound like you’ve just dropped a tab of acid then 2013 doesn’t care. All of these bands fall on the prettier side of the genre. Read a review that doesn’t contain the word ‘hazy’ recently? Thought not. Cambridge’s Uncle Acid And The Deadbeats, however, eat hazy for breakfast.",
+    "link": "https://www.nme.com/reviews/reviews-various-artists-14322-309308",
+    "maxLength": 141
+	},
+	{
+		"id": 4,
+		"title": "Eternal Return",
+		"artist": "Windhand",
+    "review": "The Richmond doom-metal quartet strips away the excess, honing in on a grunge and psych-rock core and letting Dorthia Cottrell shine as an extraordinarily compelling singer and bandleader.",
+    "link": "https://pitchfork.com/reviews/albums/windhand-eternal-return/",
+    "maxLength": 148
+	}]

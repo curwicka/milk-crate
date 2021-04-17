@@ -1,97 +1,81 @@
 [{
 		"id": 0,
 		"title": "At Fillmore East",
-		"artist": "The Allman Brothers",
-		"done": false
+		"artist": "The Allman Brothers"
 	},
 	{
 		"id": 1,
 		"title": "Sunday at the Village Vanguard",
-		"artist": "Bill Evans Trio",
-		"done": false
+		"artist": "Bill Evans Trio"
 	},
 	{
 		"id": 2,
 		"title": "Dream Griever",
-		"artist": "BleakHeart",
-		"done": false
+		"artist": "BleakHeart"
 	},
 	{
 		"id": 3,
 		"title": "The Campfire Headphase",
-		"artist": "Boards of Canada",
-		"done": false
+		"artist": "Boards of Canada"
 	},
 	{
 		"id": 4,
 		"title": "Patchouli Blue",
-		"artist": "Bohren und Der Club of Gore",
-		"done": false
+		"artist": "Bohren & Der Club of Gore"
 	},
 	{
 		"id": 5,
 		"title": "Green Onions",
-		"artist": "Booker T and the MGs",
-		"done": false
+		"artist": "Booker T. and the MGs"
 	},
 	{
 		"id": 6,
-		"title": "Somethin Else",
-		"artist": "Cannonball Adderley",
-		"done": false
+		"title": "Somethin' Else",
+		"artist": "Cannonball Adderley"
 	},
 	{
 		"id": 7,
 		"title": "London Calling",
-		"artist": "The Clash",
-		"done": false
+		"artist": "The Clash"
 	},
 	{
 		"id": 8,
 		"title": "Resurrection",
-		"artist": "Common",
-		"done": false
+		"artist": "Common"
 	},
 	{
 		"id": 9,
 		"title": "A Dawn to Fear",
-		"artist": "Cult of Luna",
-		"done": false
+		"artist": "Cult of Luna"
 	},
 	{
 		"id": 10,
 		"title": "Mariner",
-		"artist": "Cult of Luna",
-		"done": false
+		"artist": "Cult of Luna"
 	},
 	{
 		"id": 11,
 		"title": "Fresh Fruit for Rotting Vegetables",
-		"artist": "Dead Kennedys",
-		"done": false
+		"artist": "Dead Kennedys"
 	},
 	{
 		"id": 12,
 		"title": "The Doors",
-		"artist": "The Doors",
-		"done": false
+		"artist": "The Doors"
 	},
 	{
 		"id": 13,
 		"title": "Hex: Or Printing in the Infernal Method",
-		"artist": "Earth",
-		"done": false
+		"artist": "Earth"
 	},
 	{
 		"id": 14,
 		"title": "Reflections of a Floating World",
-		"artist": "Elder",
-		"done": false
+		"artist": "Elder"
 	},
 	{
 		"id": 15,
 		"title": "Vegvisir",
-		"artist": "Hela",
-		"done": false
+		"artist": "Hela"
 	}
 ]

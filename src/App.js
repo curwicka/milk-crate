@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Navigation, Footer, Home, Collection, Login } from "./components";
+import { Navigation, Footer, Home, Reviews, Collection, Login } from "./components";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <Navigation />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
+          <Route path="/reviews" exact component={() => <Reviews />} />
           <Route path="/collection" exact component={() => <Collection />} />
           <Route path="/login" exact component={() => <Login />} />
         </Switch>

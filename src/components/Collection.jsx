@@ -12,19 +12,12 @@ class Collection extends Component {
 
   componentDidMount() {
     axios
-      .get('../data.json')
+      .get('../collection.json')
       .then(({ data }) => {
         this.setState({ albums: data });
         this.setState({ nextAlbumId: data.length });
       });
   }
-
-  markAlbumAsDone = (id, done) =>
-    this.setState({
-      albums: this.state.albums.map(album =>
-        album.id === id ? { ...album, done } : album
-      )
-    });
 
   removeAlbum = id =>
     this.setState({
